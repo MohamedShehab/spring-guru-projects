@@ -5,4 +5,9 @@ public class B extends A{
     public void run() {
         System.out.println("Hello Man!");
     }
+
+    @Override
+    public void display() {
+        super.display();
+    }
 }
